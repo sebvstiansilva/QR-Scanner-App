@@ -3,6 +3,8 @@
    <application
         android:label="qr_reader"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyD-Q_oQoj5CYybbnVU1KAHb-V1oeUsFFfo"/>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

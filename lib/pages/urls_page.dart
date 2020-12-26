@@ -5,6 +5,6 @@ import 'package:qr_reader/widgets/scan_tiles.dart';
 class UrlsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ScanTiles(tipo: 'htpp');
+    return ScanTiles(tipo: 'http');
   }
 }
